@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>反馈助手</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      color: #1C64F2;
+    }
+    p {
+      color: #555;
+    }
+
+    #dify-chatbot-bubble-button {
+      background-color: #1C64F2 !important;
+    }
+
+    #dify-chatbot-bubble-window {
+      width: 24rem !important;
+      height: 40rem !important;
+    }
+  </style>
+</head>
+<body>
+  <h1>反馈助手</h1>
+  <p>点击右下角对话图标开始使用 AI 反馈助手。</p>
+
+  <script>
+    window.difyChatbotConfig = {
+      token: 'QMnWKIjPRtPWtQI5',
+      baseUrl: 'http://www.activein.cn:81',
+      systemVariables: {
+        // user_id: 'YOU CAN DEFINE USER ID HERE',
+        // conversation_id: 'YOU CAN DEFINE CONVERSATION ID HERE, IT MUST BE A VALID UUID',
+      },
+    };
+  </script>
+  <script
+    src="http://www.activein.cn:81/embed.min.js"
+    id="QMnWKIjPRtPWtQI5"
+    defer>
+  </script>
+</body>
+</html>
